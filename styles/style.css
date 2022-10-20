@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    }
 
 body {
     background-color: rgba(0, 0, 0, 0.90);
@@ -47,6 +47,7 @@ ul {
 #about {
     margin-top: 50px;
     display: flex;
+    align-items: flex-start;
 }
 
 #about img {
@@ -78,4 +79,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.project-list {
+    display: flex;
+}
+
+figure img {
+    width: 400px;
 }
