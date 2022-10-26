@@ -45,14 +45,14 @@ ul {
 }
 
 #about {
-    margin-top: 50px;
+    margin: 50px 0;
     display: flex;
     align-items: flex-start;
 }
 
 #about img {
     width: 200px;
-    margin: 0 50px 50px 20px;
+    margin-left: 50px;
     border: 5px solid whitesmoke;
     border-radius: 20px 0;
 }
@@ -81,9 +81,39 @@ a:hover {
     text-decoration: underline;
 }
 
+#project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#project h1 {
+    margin-bottom: 20px;
+}
+
 .project-list {
+    overflow-x: scroll;
     display: flex;
 }
+
+.project-list figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #A804FB;
+    border: 1px solid #28003C;
+    border-radius: 20px 0;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.project-list figure figcaption {
+    margin-top: 10px;
+} 
 
 figure img {
     width: 400px;
