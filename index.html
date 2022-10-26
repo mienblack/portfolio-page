@@ -1,72 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Damien Costa - Portfólio</title>
-    <link rel="shortcut icon" href="./images/mienDesenho.png" type="image/png">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./images/mienDesenho.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsivo.css">
+  </head>
 
-<body>
+  <body>
     <header class="cabecalho">
-        <nav>
-            <ul class="social">
-                <li><a href="https://www.instagram.com/mien.fe/" target="_blank"><img src="./images/instagram-icon.webp" alt="icone do instagram"></a></li>
-                <li><a href="https://www.linkedin.com/in/damien-costa-969953164/" target="_blank"><img src="./images/linkedin-icon.png" alt="ícone do linkedin"></a></li>
-                <li><a href="https://github.com/mienblack" target="_blank"><img src="./images/github-icon.png" alt="ícone do github"></a></li>
-            </ul>
-            <ul id="nav-list">
-                <li><a href="#about">Quem Sou</a></li>
-                <li><a href="#project">Portfolio</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-
+      <nav>
+        <ul class="social">
+          <li>
+            <a href="https://www.instagram.com/mien.fe/" target="_blank"
+              ><img src="./images/instagram-icon.webp" alt="icone do instagram"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/damien-costa-969953164/"
+              target="_blank"
+              ><img src="./images/linkedin-icon.png" alt="ícone do linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/mienblack" target="_blank"
+              ><img src="./images/github-icon.png" alt="ícone do github"
+            /></a>
+          </li>
+        </ul>
+        <ul id="nav-list">
+          <li><a href="#about">Quem Sou</a></li>
+          <li><a href="#project">Portfólio</a></li>
+          <!--<li><a href="#contact">Contato</a></li>-->
+        </ul>
+      </nav>
     </header>
     <div id="about">
-        <img src="./images/IMG_20220129_122027_430.jpg" alt="">
-        <div id="about-text">
-            <p class="firstP">Olá, sou Damien Felipe</p>
-            <p class="secondP">Desenvolvedor Front-end</p>
-            <p class="thirdP"></p>
-        </div>
+      <img src="./images/IMG_20220129_122027_430.jpg" alt="" />
+      <div id="about-text">
+        <p class="firstP">Olá, sou Damien Felipe</p>
+        <p class="secondP">Desenvolvedor Front-end</p>
+        <p class="thirdP">Atualmente focado em projetos web</p>
+      </div>
     </div>
+
+    <section id="techs">
+      <h1>Minhas habilidades</h1>
+      <ul class="divTechs">
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            title="HTML"
+          />
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            title="CSS"
+          />
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            title="Javascript"
+          />
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            title="GIT"
+          />
+        </li>
+        <li>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+            title="Firebase"
+          />
+        </li>
+      </ul>
+    </section>
 
     <main id="project">
-        <h1>Meu Portfólio</h1>
-        <div class="project-list">
-            <a href="https://mienblack.github.io/jogo-da-memoria/" title="Jogo da memória">
-                <figure>
-                    <img src="./images/memory-game.png" alt="memory-game">
-                    <figcaption>Jogo da memória</figcaption>
-                </figure>
-            </a>
-            <a href="https://mienblack.github.io/jogo-da-velha/" title="Jogo da velha">
-                <figure>
-                    <img src="./images/jogo-da-velha.png" alt="jogo-da-velha">
-                    <figcaption>Jogo da Velha</figcaption>
-                </figure>
-            </a>
-            <a href="https://rocketpay-ten-gamma.vercel.app/" title="Rocketpay">
-                <figure>
-                    <img src="./images/rocketpay.png" alt="rocketpay">
-                    <figcaption>Rocketpay</figcaption>
-                </figure>
-            </a>
-        </div>
-
+      <h1>Meu Portfólio</h1>
+      <div class="project-list">
+        <a
+          href="https://rocketpay-ten-gamma.vercel.app/"
+          title="Rocketpay"
+          target="_blank"
+        >
+          <figure>
+            <img src="./images/rocketpay.png" alt="rocketpay" />
+            <figcaption>Rocketpay</figcaption>
+          </figure>
+        </a>
+        <a
+          href="https://mienblack.github.io/jogo-da-memoria/"
+          title="Jogo da memória"
+          target="_blank"
+        >
+          <figure>
+            <img src="./images/memory-game.png" alt="memory-game" />
+            <figcaption>Jogo da memória</figcaption>
+          </figure>
+        </a>
+        <a
+          href="https://mienblack.github.io/jogo-da-velha/"
+          title="Jogo da velha"
+          target="_blank"
+        >
+          <figure>
+            <img src="./images/jogo-da-velha.png" alt="jogo-da-velha" />
+            <figcaption>Jogo da Velha</figcaption>
+          </figure>
+        </a>
+      </div>
     </main>
+    <!--
     <div id="contact">
-        <form action=""></form>
+        <h1>Fale Comigo</h1>
+      <form class="form" method="post" action="./email.php">
+        <input class="field" type="text" name="nome" placeholder="nome">
+        <input class="field" type="email" placeholder="email">
+        <input class="field" type="text" placeholder="assunto">
+        <textarea name="mensagem" placeholder="Escreva aqui a sua mensagem" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar contato<img src="./images/send-icon.png"></button>
+      </form>
     </div>
+    -->
     <footer>
-
+        <ul class="social">
+            <li>
+              <a href="https://www.instagram.com/mien.fe/" target="_blank"
+                ><img src="./images/instagram-icon.webp" alt="icone do instagram"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/damien-costa-969953164/"
+                target="_blank"
+                ><img src="./images/linkedin-icon.png" alt="ícone do linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/mienblack" target="_blank"
+                ><img src="./images/github-icon.png" alt="ícone do github"
+              /></a>
+            </li>
+          </ul>
     </footer>
 
     <script src="./scripts/script.js"></script>
-</body>
-
+  </body>
 </html>
