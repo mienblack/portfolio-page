@@ -3,4 +3,4 @@
 
 Made with 💟 by Damien Costa ✌🏿
 
-<a href="https://www.linkedin.com/in/damien-costa-969953164/" target="_blank">![LinkedIn Badge](https://img.shields.io/badge/-Damien_Costa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/damien-costa-969953164/)
+<a href="https://www.linkedin.com/in/damien-costa/" target="_blank">![LinkedIn Badge](https://img.shields.io/badge/-Damien_Costa-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/damien-costa-969953164/)
