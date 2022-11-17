@@ -1,3 +1,16 @@
+@media screen and (max-width: 1400px) {
+  .project-div{
+    flex-direction: column;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-div figure{
+    width: fit-content;
+  }
+}
+
 @media screen and (max-width: 530px) {
     #about {
         margin: 50px 0;
@@ -64,13 +77,13 @@
         margin-bottom: 10px;
       }
 
-      .project-list figure {
+      .project-div figure {
         font-size: 0.8rem;;
         padding: 10px;
         margin-right: 50px;
       }
       
-      .project-list figure figcaption {
+      .project-div figure figcaption {
         margin-top: 5px;
       }
       

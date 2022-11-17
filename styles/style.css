@@ -7,6 +7,8 @@
 }
 
 body {
+  overflow-x: hidden;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -18,12 +20,11 @@ body {
 
 nav,
 footer {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #8500c9;
-  background-color: black;
+  background-color: #050404;
   font-weight: 600;
 }
 
@@ -51,7 +52,7 @@ ul {
 }
 
 #about {
-  margin: 50px 0;
+  padding: 50px 0;
   display: flex;
   align-items: flex-start;
 }
@@ -79,34 +80,35 @@ ul {
   font-weight: 900;
 }
 
-.thirdP {
-  margin-top: 20px;
-  text-align: justify;
-}
-
 #techs {
+  background-color: #050404;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 0 50px;
+  padding: 50px;
   margin-bottom: 20px;
-  height: 150px;
+  height: 350px;
 }
 
 #techs h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .divTechs {
   padding: 20px;
-  width: 45%;
-  display: flex;
-  justify-content: space-around;
+  width: fit-content;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .divTechs img {
-  width: 30px;
+  background-color: rgba(83, 0, 124, 0.5);
+  border: 2px solid #8500c9;
+  border-radius: 15px;
+  padding: 15px;
+  width: 80px;
 }
 
 a {
@@ -119,25 +121,28 @@ a:hover {
 }
 
 #project {
+  width: 95%;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   margin-left: 50px;
   margin-bottom: 20px;
 }
 
+.project-div {
+  align-self: center;
+  display: flex;
+  gap: 30px;
+}
+
 #project h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.project-list {
-  overflow-x: scroll;
-  width: 100%;
-  display: flex;
-}
-
-.project-list figure {
+.project-div figure {
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -145,13 +150,12 @@ a:hover {
   font-weight: bold;
   font-size: 1.2rem;
   color: #a804fb;
-  border: 2px solid #28003c;
-  border-radius: 20px 0;
+  border: 2px solid #460069;
+  border-radius: 20px;
   padding: 20px;
-  margin-right: 10px;
 }
 
-.project-list figure figcaption {
+.project-div figure figcaption {
   margin-top: 10px;
 }
 
@@ -160,10 +164,20 @@ figure img {
 }
 
 footer {
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   margin-top: 40px;
   height: 50px;
+}
+
+footer .div-email {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .email {
+  width: 30px;
 }
 
 footer ul {
