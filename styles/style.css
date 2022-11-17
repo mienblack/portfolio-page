@@ -96,11 +96,11 @@ ul {
 }
 
 .divTechs {
+  margin-left: 100px;
   padding: 20px;
   width: fit-content;
-  display: grid;
-  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
-  gap: 20px;
+  display: flex;
+  gap: 30px;
 }
 
 .divTechs img {
