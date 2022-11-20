@@ -7,8 +7,7 @@
 }
 
 body {
-  overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -161,7 +160,8 @@ a:hover {
 
 .project-div {
   align-self: center;
-  display: flex;
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 1fr 1fr;
   gap: 30px;
 }
 
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .project-div figure {
-  width: 700px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -212,4 +212,11 @@ footer .email {
 
 footer ul {
   margin-right: 40px;
+}
+
+@media screen and (max-width: 412px) {
+  .project-div {
+    display: flex;
+    flex-direction: column;
+  }
 }
