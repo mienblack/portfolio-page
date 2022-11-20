@@ -21,11 +21,18 @@ body {
 nav,
 footer {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   color: #8500c9;
   background-color: #050404;
   font-weight: 600;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+footer {
+  justify-content: space-around;
 }
 
 .social {
@@ -40,6 +47,7 @@ li img {
 
 #nav-list {
   display: flex;
+  margin-right: 50px;
   justify-items: space-between;
 }
 
@@ -93,6 +101,7 @@ ul {
 #techs h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  position: relative;
 }
 
 .divTechs {
@@ -109,6 +118,27 @@ ul {
   border-radius: 15px;
   padding: 15px;
   width: 80px;
+}
+
+#description {
+  position: absolute;
+  right: 100px;
+  padding: 30px;
+  display: none;
+  align-items: center; 
+
+  background-color: rgba(134, 0, 201, 0.5);
+  border-radius: 20px;
+  box-shadow: 10px 10px  rgba(83, 0, 124, 0.5);
+
+  max-width: 600px;
+  height: 250px;
+  width: fit-content;
+  text-align: center;
+}
+
+.d-html, .d-css, .d-js, .d-react {
+  display: none;
 }
 
 a {
