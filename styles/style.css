@@ -7,11 +7,12 @@
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
   font-family: "Raleway", sans-serif;
@@ -94,7 +95,7 @@ ul {
   justify-content: space-around;
   padding: 50px;
   margin-bottom: 20px;
-  height: 350px;
+  height: fit-content;
 }
 
 #techs h1 {
@@ -201,6 +202,7 @@ footer {
 }
 
 footer .div-email {
+  font-size: 12pt;
   display: flex;
   align-items: center;
   gap: 20px;
