@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root,
+[data-bs-theme=light] {
+    --bs-primary-rgb: 121, 20, 199;
+}
+
+.btn-primary {
+
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-bg: #7914c7;
+    --bs-btn-border-color: #7914c7;
+    --bs-btn-disabled-border-color: #7914c7;
+    --bs-btn-disabled-bg: #7914c7;
+    --bs-btn-hover-bg: #5b317a;
+    --bs-btn-hover-border-color: #5b317a;
+    --bs-btn-active-bg: #5b317a;
+    --bs-btn-active-border-color: #5b317a;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, .5);
+}
+
+h5 {
+    width: fit-content;
+}
+
+.justify {
+    text-align: justify;
+}
+
+a:hover {
+    font-weight: bold;
+}
